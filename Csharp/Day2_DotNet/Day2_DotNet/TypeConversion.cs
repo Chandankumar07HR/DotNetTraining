@@ -67,6 +67,7 @@ namespace Day2_DotNet
             Console.WriteLine(o);
             Console.WriteLine(s);
         }
+
     }
 }
 

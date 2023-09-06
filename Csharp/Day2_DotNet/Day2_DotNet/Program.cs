@@ -10,54 +10,37 @@ namespace Day2_DotNet
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Please Enter Your First Name :");
+            Console.WriteLine("enter your firstname");
             string fname = Console.ReadLine();
-            //Console.WriteLine("Your Name is " + fname); // Concatenation
-            //Console.WriteLine("Your Name is {0}", fname);//placeholder
-            //Multiple Placeholder example to display data
-            Console.WriteLine("Enter your Last Name:");
-            string lname = Console.ReadLine();
-            Console.WriteLine("Your First Name is :{0} and your Last name is :{1}", fname, lname);
-            //string interpolation to display data
-            Console.WriteLine($"Your FirstName is {fname} and your lastName is {lname}");
-            Myclass.MyFunction();
+            Console.WriteLine("your name is " + fname);//concatination=[text + text]
 
-            //  func2();
+            Console.WriteLine("your name is {0}", fname); //placeholder {0}
+
+            Console.WriteLine("enter your last name");
+            string lname = Console.ReadLine();
+            Console.WriteLine("your last name is" + lname);
+
+            // multiple place holder
+            Console.WriteLine("your first name is{0} and your last name is{1}",fname,lname);//mutiple place holder
+
+            //string interpolation to display data
+            Console.WriteLine($"your first name is {fname}and your last name is{lname} ");
+            myclass.MyFucntion();
+            myclass.funt2();
             Console.Read();
         }
 
-        static void func2()
-        {
-            Console.WriteLine("This func2");
-            Console.WriteLine("Enter your Age :");
-            int age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"You are {age} years old");
-            Console.WriteLine("Min Value = {0}", int.MinValue);
-            Console.WriteLine("Min Value = {0}", int.MaxValue);
-        }
     }
-
-    class Myclass
+    class myclass
     {
-        public static void MyFunction()
+        public static void MyFucntion() //without adding the static we can not call this function in main function.
         {
-            Console.WriteLine("We are discussing Main Function");
-            int num = 30;
-            bool b;
-            /* if(num==10)
-             {
-                 b = true;
-             }
-             else
-             {
-                 b = false; 
-             }
-             Console.WriteLine("Number == 10 is {0}", b); */
+            Console.WriteLine("hi there");
 
-            //the above lines of code can be replaced with a ternary operator as below
-            b = num == 10 ? true : false;
+        }
+        public static void funt2()
+        {
 
-            Console.WriteLine("Number == 10 is {0}", b);
         }
     }
 }

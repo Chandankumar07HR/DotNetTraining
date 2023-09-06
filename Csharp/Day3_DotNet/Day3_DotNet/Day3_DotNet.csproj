@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4A30E475-6561-4405-8C41-DEC6604A8B3E}</ProjectGuid>
+    <ProjectGuid>{938102A8-507E-4DC1-962A-9FF3A490E9DE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Day2_DotNet</RootNamespace>
-    <AssemblyName>Day2_DotNet</AssemblyName>
+    <RootNamespace>Day3_DotNet</RootNamespace>
+    <AssemblyName>Day3_DotNet</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Day2_DotNet.ClassnInstance_Eg</StartupObject>
+    <StartupObject>Day3_DotNet.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,10 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClassnInstance_Eg.cs" />
+    <Compile Include="DecisionMaking.cs" />
+    <Compile Include="ParamArray_Eg.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TypeConversion.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
