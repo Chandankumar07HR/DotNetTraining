@@ -15,7 +15,7 @@ namespace Assignment1
             int num1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("the first number is" + num1);
 
-            Console.WriteLine("Inpput 2nd number:");
+            Console.WriteLine("Input 2nd number:");
             int num2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("the second number is" + num2);
 
@@ -34,14 +34,21 @@ namespace Assignment1
  //2. Write a C# Sharp program to check whether a given number is positive or negative.
         static void negative()
         {
-            int number = 14;
-            if(number > 0)
+            Console.WriteLine("-------------");
+            Console.Write("Enter a number: ");
+            int number = int.Parse(Console.ReadLine());
+
+            if (number > 0)
             {
                 Console.WriteLine($"{number} is a positive number");
             }
-            else if(number < 0)
+            else if (number < 0)
             {
                 Console.WriteLine($"{number} is a negative number");
+            }
+            else
+            {
+                Console.WriteLine($"{number} is neither positive nor negative");
             }
         }
 //3. Write a C# Sharp program that takes two numbers as input and performs all operations (+,-,*,/) on them and displays the result of that operation. 
@@ -53,12 +60,13 @@ namespace Assignment1
          20 - 12 = 8  */
         static void operations()
         {
+            Console.WriteLine("----------------");
             Console.Write("Enter the first number: ");
             if (double.TryParse(Console.ReadLine(), out double num1))
             {
                 Console.Write("Enter the operation (+, -, *, /): ");
                 char operation = Console.ReadKey().KeyChar;
-                Console.WriteLine(); // Move to the next line
+                Console.WriteLine(); 
 
                 Console.Write("Enter the second number: ");
                 if (double.TryParse(Console.ReadLine(), out double num2))

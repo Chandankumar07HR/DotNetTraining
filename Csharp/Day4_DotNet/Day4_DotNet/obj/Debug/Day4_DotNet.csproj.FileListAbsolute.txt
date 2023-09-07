@@ -1,0 +1,7 @@
+D:\DOTNET training\Csharp\Day4_DotNet\Day4_DotNet\bin\Debug\Day4_DotNet.exe.config
+D:\DOTNET training\Csharp\Day4_DotNet\Day4_DotNet\bin\Debug\Day4_DotNet.exe
+D:\DOTNET training\Csharp\Day4_DotNet\Day4_DotNet\bin\Debug\Day4_DotNet.pdb
+D:\DOTNET training\Csharp\Day4_DotNet\Day4_DotNet\obj\Debug\Day4_DotNet.csproj.AssemblyReference.cache
+D:\DOTNET training\Csharp\Day4_DotNet\Day4_DotNet\obj\Debug\Day4_DotNet.csproj.CoreCompileInputs.cache
+D:\DOTNET training\Csharp\Day4_DotNet\Day4_DotNet\obj\Debug\Day4_DotNet.exe
+D:\DOTNET training\Csharp\Day4_DotNet\Day4_DotNet\obj\Debug\Day4_DotNet.pdb
