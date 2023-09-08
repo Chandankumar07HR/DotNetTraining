@@ -26,6 +26,7 @@ namespace Assignment1
             }
             else
                 Console.WriteLine($"{num1} and {num2} are not equal");
+
             Program.negative(); //calling nagative() function in main function and the function negative is static so i dont want to create object and the negative function is in same class as of main.
             Program.operations();
             Console.ReadLine();
