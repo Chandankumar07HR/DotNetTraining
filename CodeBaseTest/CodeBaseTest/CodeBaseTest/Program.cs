@@ -33,13 +33,13 @@ namespace CodeBaseTest
                 }
                 else
                 {
-                    Console.WriteLine("Invalid position.");
+                    Console.WriteLine("Invalid position");
                 }
             }
-            else
-            {
-                Console.WriteLine("Invalid input for position.");
-            }
+            //else
+            //{
+            //    Console.WriteLine("Invalid input for position");
+            //}
         }
         //2)  Write a C# Sharp program that prints the multiplication table of a number as input.
         public static void Multiplication_table()
@@ -57,7 +57,8 @@ namespace CodeBaseTest
             }
             else
             {
-                Console.WriteLine("Invalid input. Please enter a valid number.");
+                //if we not give any number this will be displayed
+                Console.WriteLine("Invalid input Please enter the valid number");
             }
         }
     }
