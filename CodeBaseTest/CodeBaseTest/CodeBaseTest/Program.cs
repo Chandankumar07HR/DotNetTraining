@@ -12,6 +12,7 @@ namespace CodeBaseTest
         {
             Program.Remove_Characters();
             Program.Multiplication_table();
+            //Program.chandan();
             Console.ReadLine();
         }
 
@@ -24,8 +25,9 @@ namespace CodeBaseTest
             string input = Console.ReadLine();
 
             Console.Write("Enter the position to remove (0-indexed): ");
-            if (int.TryParse(Console.ReadLine(), out int position))
-            {
+            // if (int.TryParse(Console.ReadLine(), out int position))
+            int position = Convert.ToInt32(Console.ReadLine());
+            //{
                 if (position >= 0 && position < input.Length)
                 {
                     string result = input.Remove(position, 1);
@@ -35,7 +37,7 @@ namespace CodeBaseTest
                 {
                     Console.WriteLine("Invalid position");
                 }
-            }
+           // }
             
         }
         //2)  Write a C# Sharp program that prints the multiplication table of a number as input.
@@ -46,7 +48,7 @@ namespace CodeBaseTest
             if (int.TryParse(Console.ReadLine(), out int number))
             {
                 Console.WriteLine("Multiplication Table of " + number + ":");
-                for (int i = 0; i <= 10; i++)
+                for (int i = 1; i <= 10; i++)
                 {
                     int result = number * i;
                     Console.WriteLine($"{number} * {i} = {result}");
@@ -57,6 +59,38 @@ namespace CodeBaseTest
                 //if we not give any number this will be displayed
                 Console.WriteLine("Invalid input Please enter the valid number");
             }
+        }
+        public static void chandan()
+        {
+            //string str;
+            //int position;
+            //Console.WriteLine("Enter the string: ");
+            //string str = Console.ReadLine();
+
+            //Console.WriteLine("Enter the position of the character to be removed:");
+            //int position = Convert.ToInt32(Console.ReadLine());
+
+            //string newStr = str.Remove(position, 1);
+            //Console.WriteLine("The new string is: {0}", newStr);
+
+            Console.WriteLine("enter the strings");
+            string input = Console.ReadLine();
+
+            Console.WriteLine("enter the position to be removed");
+            int position = Convert.ToInt32(Console.ReadLine());
+
+            if (position >= 0 && position <= input.Length)
+            {
+                string result = input.Remove(position, 1);
+                Console.WriteLine("the result is" + result);
+
+            }
+            else
+            {
+                Console.WriteLine("the position is not valid");
+            }
+
+
         }
     }
         

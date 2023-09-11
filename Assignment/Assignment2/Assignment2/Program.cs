@@ -13,8 +13,7 @@ namespace Assignment2
     {
         static void Main(string[] args)
         {
-
-            {
+            
                 Console.Write("Enter the number of elements in the array: ");
                 int n = Convert.ToInt32(Console.ReadLine());
 
@@ -57,7 +56,7 @@ namespace Assignment2
                 Console.ReadLine();
 
                 Program.secondprogram(); //calling secong program() function in main using class name and not using or creating object because the funis static
-            }
+            
         }
 //2.	Write a program in C# to accept ten marks and display the 
 //		following

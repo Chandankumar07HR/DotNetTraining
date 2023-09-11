@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DC3B23C6-8D41-4285-A5F9-9E153F3374CC}</ProjectGuid>
+    <ProjectGuid>{3E181308-A9B8-4CB1-B7A2-0066D0522342}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DotNet_Day5_Prj2</RootNamespace>
-    <AssemblyName>DotNet_Day5_Prj2</AssemblyName>
+    <RootNamespace>DotNet_Day6</RootNamespace>
+    <AssemblyName>DotNet_Day6</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,18 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program2.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReadOnlynConstant_Eg.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DotNet_Day5\DotNet_Day5.csproj">
-      <Project>{9256e673-d5cd-4d5c-9806-5e501c9641e9}</Project>
-      <Name>DotNet_Day5</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
