@@ -1,0 +1,11 @@
+D:\DOTNET training\Csharp\DotNet_Day5\DotNet_Day5_Prj2\bin\Debug\DotNet_Day5_Prj2.exe.config
+D:\DOTNET training\Csharp\DotNet_Day5\DotNet_Day5_Prj2\bin\Debug\DotNet_Day5_Prj2.exe
+D:\DOTNET training\Csharp\DotNet_Day5\DotNet_Day5_Prj2\bin\Debug\DotNet_Day5_Prj2.pdb
+D:\DOTNET training\Csharp\DotNet_Day5\DotNet_Day5_Prj2\bin\Debug\DotNet_Day5.exe
+D:\DOTNET training\Csharp\DotNet_Day5\DotNet_Day5_Prj2\bin\Debug\DotNet_Day5.pdb
+D:\DOTNET training\Csharp\DotNet_Day5\DotNet_Day5_Prj2\bin\Debug\DotNet_Day5.exe.config
+D:\DOTNET training\Csharp\DotNet_Day5\DotNet_Day5_Prj2\obj\Debug\DotNet_Day5_Prj2.csproj.AssemblyReference.cache
+D:\DOTNET training\Csharp\DotNet_Day5\DotNet_Day5_Prj2\obj\Debug\DotNet_Day5_Prj2.csproj.CoreCompileInputs.cache
+D:\DOTNET training\Csharp\DotNet_Day5\DotNet_Day5_Prj2\obj\Debug\DotNet_Day5_Prj2.csproj.CopyComplete
+D:\DOTNET training\Csharp\DotNet_Day5\DotNet_Day5_Prj2\obj\Debug\DotNet_Day5_Prj2.exe
+D:\DOTNET training\Csharp\DotNet_Day5\DotNet_Day5_Prj2\obj\Debug\DotNet_Day5_Prj2.pdb

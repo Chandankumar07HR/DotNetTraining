@@ -1,0 +1,7 @@
+D:\DOTNET training\CodeBaseTest\CodeBaseTest\CodeBaseTest\bin\Debug\CodeBaseTest.exe.config
+D:\DOTNET training\CodeBaseTest\CodeBaseTest\CodeBaseTest\bin\Debug\CodeBaseTest.exe
+D:\DOTNET training\CodeBaseTest\CodeBaseTest\CodeBaseTest\bin\Debug\CodeBaseTest.pdb
+D:\DOTNET training\CodeBaseTest\CodeBaseTest\CodeBaseTest\obj\Debug\CodeBaseTest.csproj.AssemblyReference.cache
+D:\DOTNET training\CodeBaseTest\CodeBaseTest\CodeBaseTest\obj\Debug\CodeBaseTest.csproj.CoreCompileInputs.cache
+D:\DOTNET training\CodeBaseTest\CodeBaseTest\CodeBaseTest\obj\Debug\CodeBaseTest.exe
+D:\DOTNET training\CodeBaseTest\CodeBaseTest\CodeBaseTest\obj\Debug\CodeBaseTest.pdb
